@@ -1,0 +1,11 @@
+import platform
+import sys
+
+# Print Python version and information
+print(f"Python Version: {sys.version}")
+
+# Print system information
+print(f"System: {platform.system()} {platform.release()}")
+
+# Print list of installed packages and their versions
+!pip freeze
